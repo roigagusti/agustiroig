@@ -1,0 +1,70 @@
+/*
+# Author: ldrs
+# Template: Araving
+# Version: 1.0
+# Copyright 2017 Aldasoro, inc.
+# www: http://www.araving.com
+
+
+Taula de continguts
+-------------------
+1.Base i fonts
+2.Map
+
+/* ---------- 1. Base i fonts ---------- */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+body{
+    margin:0;
+}
+a, a:hover{
+    text-decoration: none;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.list-inline>li{
+    display:inline-block;
+    padding-right:5px;
+    padding-left:5px
+}
+
+/* ---------- 2. Map ---------- */
+header{
+    text-align: center;
+    margin: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(255,255,255,0.95);
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+#map {
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+    z-index:1;
+}
+#map div a img, .gmnoprint, .gm-style-cc{
+    display:none;
+}
+.logo-map{
+    height: 30px;
+    margin-top: 10px;
+}
+#footer{
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.05);
+    z-index: 5;
+}
+
+/* ---------- 3. Info marcador ---------- */

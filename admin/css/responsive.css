@@ -1,0 +1,26 @@
+/*
+# Author: Aldasoro
+# Template: Admin
+# Version: 1.0
+# Copyright 2019 Aldasoro, inc.
+# www: http://www.agustiroig.com
+
+
+Taula de continguts
+-------------------
+1.Medium devices
+2.Small devices
+3.Exra small devices
+
+
+/* ---------- 1. Medium devices --------- */
+@media (max-width: 1563px) {
+}
+
+/* ---------- 2. Small devices ---------- */
+@media (max-width: 991px) {
+}
+
+/* ---------- 3. Extra small devices ---- */
+@media (max-width: 448px) {
+}

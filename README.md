@@ -1,2 +1,0 @@
-# agustiroig
-www.agustiroig.com

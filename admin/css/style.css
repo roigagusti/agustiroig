@@ -1,0 +1,84 @@
+/*
+# Author: Aldasoro
+# Template: Admin
+# Version: 1.0
+# Copyright 2019 Aldasoro, inc.
+# www: http://www.agustiroig.com
+
+
+Taula de continguts
+-------------------
+1.Base i fonts
+2.Content
+
+/* ---------- 1. Base i fonts ---------- */
+th, td{
+    vertical-align: middle !important;
+    font-size:0.8em;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+}
+.bg-white a{
+    text-decoration: none;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+.bg-white a:hover{
+    color:#41bf67 !important;
+    text-decoration: none;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.active{
+    color:#41bf67 !important;
+    font-weight: 600;
+}
+h5 a{
+    text-decoration:none;
+    color:#000;
+}
+h5 a:hover{
+    text-decoration:none;
+    color:#000;
+}
+.subheader a{
+    color: #333;
+    text-decoration:none;
+    font-family: Roboto, Verdana;
+    font-size: 1.1em;
+}
+.subheader a:hover{
+    color: #333;
+    text-decoration:none;
+}
+footer{
+    font-size:0.85em;
+}
+.table-row{
+cursor:pointer;
+}
+
+/* ---------- 2. Content ---------- */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.numero{
+    text-align: center;    
+}
+.telefon{
+    width:140px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}

@@ -1,0 +1,22 @@
+.numero{
+	text-align: center;
+}
+.btn{
+	color: white !important;
+}
+input{
+	margin-bottom:10px;
+}
+.guardar-nou{
+	margin-top:20px;
+	margin-left: -10px;
+}
+.print{
+	margin-top:20px;
+}
+.seccio{
+	margin-top:30px;
+}
+.factura{
+	left:10px;
+}

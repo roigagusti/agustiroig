@@ -1,0 +1,70 @@
+/*
+# Author: ldrs
+# Template: Araving
+# Version: 1.0
+# Copyright 2017 Aldasoro, inc.
+# www: http://www.araving.com
+
+
+Taula de continguts
+-------------------
+1.Base i fonts
+2.Home page
+
+/* ---------- 1. Base i fonts ---------- */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+body{
+    margin:0;
+    height:100vh;
+    background: #ff6961; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff6961 0%, #ff8f54 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff6961 0%,#ff8f54 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff6961 0%,#ff8f54 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6961', endColorstr='#ff8f54',GradientType=1 ); /* IE6-9 */
+}
+a, a:hover{
+    text-decoration: none;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.list-inline>li{
+    display:inline-block;
+    padding-right:5px;
+    padding-left:5px
+}
+
+/* ---------- 2. Home page ---------- */
+.logo-base{
+    height:60px;
+}
+.home-content {
+    position: absolute;
+    padding-top: 50vh;
+    margin-top: -100px;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    color: #fff;
+}
+.home-content a{
+    color: #fff;    
+}
+.home-content a:hover{
+    color:rgba(255,255,255,0.7);
+}
+.main-menu{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size:16px;
+    margin-top:10px; 
+    padding-bottom:20px;   
+}
